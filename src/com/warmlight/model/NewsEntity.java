@@ -23,6 +23,30 @@ public class NewsEntity {
     private Date publishDate;
     private Long votedAmount;
 
+    private Integer positionX;
+    private Integer positionY;
+
+
+    @Basic
+    @Column(name = "positionX")
+    public Integer getPositionX() {
+        return positionX;
+    }
+
+    public void setPositionX(Integer positionX) {
+        this.positionX = positionX;
+    }
+
+    @Basic
+    @Column(name = "positionY")
+    public Integer getPositionY() {
+        return positionY;
+    }
+
+    public void setPositionY(Integer positionY) {
+        this.positionY = positionY;
+    }
+
     private List<FileEntity> files;
 
     private List<CommentEntity> comments;

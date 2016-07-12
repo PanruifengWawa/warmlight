@@ -6,9 +6,7 @@ import org.hibernate.annotations.NotFoundAction;
 import javax.persistence.*;
 import java.sql.Date;
 
-/**
- * Created by Administrator on 2016/6/24.
- */
+
 @Entity
 @Table(name = "t_comment")
 public class CommentEntity {

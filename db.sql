@@ -65,6 +65,9 @@ alter table t_comment add column voice_src varchar(300);
 
 alter table t_comment add column to_user_id bigint(20) unsigned;
 
+alter table t_news add column positionX int default 0;
+alter table t_news add column positionY int default 0;
+
 CREATE TRIGGER `add_voted` AFTER INSERT ON `t_vote`
  FOR EACH ROW update t_news set voted_amount = voted_amount + 1 where t_news.id = new.news_id;
  

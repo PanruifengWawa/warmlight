@@ -12,9 +12,7 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.List;
 
-/**
- * Created by tia on 16/5/28.
- */
+
 @Transactional
 public class BaseDao<T>{
 

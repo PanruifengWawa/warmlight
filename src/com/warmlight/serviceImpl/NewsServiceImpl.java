@@ -18,9 +18,7 @@ import java.sql.Date;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * Created by Administrator on 2016/6/23.
- */
+
 @Service("newsService")
 public class NewsServiceImpl implements NewsService {
     private final static Integer contentLength = 200;

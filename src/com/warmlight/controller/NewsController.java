@@ -2,7 +2,6 @@ package com.warmlight.controller;
 
 import com.warmlight.model.CommentEntity;
 import com.warmlight.model.NewsEntity;
-import com.warmlight.model.UserEntity;
 import com.warmlight.service.NewsService;
 import com.warmlight.utils.DataWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,9 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-/**
- * Created by Administrator on 2016/6/23.
- */
+
 @Controller
 @RequestMapping(value="api/news")
 public class NewsController {
