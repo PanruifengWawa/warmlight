@@ -23,27 +23,27 @@ public class NewsEntity {
     private Date publishDate;
     private Long votedAmount;
 
-    private Integer positionX;
-    private Integer positionY;
+    private Double positionX;
+    private Double positionY;
 
 
     @Basic
     @Column(name = "positionX")
-    public Integer getPositionX() {
+    public Double getPositionX() {
         return positionX;
     }
 
-    public void setPositionX(Integer positionX) {
+    public void setPositionX(Double positionX) {
         this.positionX = positionX;
     }
 
     @Basic
     @Column(name = "positionY")
-    public Integer getPositionY() {
+    public Double getPositionY() {
         return positionY;
     }
 
-    public void setPositionY(Integer positionY) {
+    public void setPositionY(Double positionY) {
         this.positionY = positionY;
     }
 
